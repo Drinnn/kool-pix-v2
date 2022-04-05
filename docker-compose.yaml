@@ -20,7 +20,7 @@ services:
       - .pgdata:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=codepix
+      - POSTGRES_DB=kool-pix
     ports:
       - "5432:5432"
 
